@@ -2,27 +2,23 @@
 
 ## Project Overview
 
-This repository contains the files for the first project of the Udacity Computer Vision Expert Nanodegree. It combine knowledge of Computer Vision Techniques and Deep learning Architectures to build a facial keypoint detection system that takes in any image with faces, and predicts the location of 68 distinguishing keypoints on each face. Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications (facial tracking, facial pose recognition, facial filters, and emotion recognition).
+This repository contains the files for the second project of the Udacity Computer Vision Expert Nanodegree. It combine knowledge of Computer Vision Techniques and Deep learning Architectures to create a neural network architecture to automatically generate captions from images.
 
-## Examples
-+ **Detect all faces using Haar Cascade Classifiers using OpenCV**
-<p align="center"> <img src="images/haar_cascade_ex.png" align="middle" width="100%"> </p>
-
-+ **Detect facial keypoint with a Convolutional Neural Network**
-<p align="center"> <img src="images/key_pts_example.png" align="middle" alt="drawing" width="100%"> </p>
+## Example
+<p align="center"> <img src="images/image-captioning.png" align="middle" width="100%"> </p>
 
 ## Project Structure
-The project will be broken up into a few main parts in four Python notebooks and one python file:
+The project is structured as a series of Jupyter notebooks that are designed to be completed in sequential order:
 
-__Notebook 1__ : Loading and Visualizing the Facial Keypoint Data
+__Notebook 0__ : Loading and Visualizing the The Microsoft Common Objects in Context (MS COCO) dataset
 
-__Notebook 2__ : Defining and Training a Convolutional Neural Network (CNN) to Predict Facial Keypoints
+__Notebook 1__ : Pre-process data from the COCO dataset. Design a CNN-RNN model for automatic image captions generation
 
-__Notebook 3__ : Facial Keypoint Detection Using Haar Cascades and your Trained CNN
+__Notebook 2__ : Train the CNN-RNN model
 
-__Notebook 4__ : Fun Filters and Keypoint Uses
+__Notebook 4__ : Use the trained model to generate captions for images in the test dataset
 
-`models.py` : Definition of the CNN to be used for facial keypoint detection
+`models.py` : Definition of the CNN-RNN model to be used for automatic image captions generation
 
 ### Local Environment Instructions
 
